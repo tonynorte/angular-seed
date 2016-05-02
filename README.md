@@ -1,4 +1,4 @@
-#Redcat - seedAngular - Gulp
+#Redcat - Angularseed - Gulp
 
 ##Introduction
 
