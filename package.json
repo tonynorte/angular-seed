@@ -1,0 +1,15 @@
+{
+  "autor": "Anthony Vega",
+  "name": "RedCad-gulp-angular",
+  "version": "1.0.0",
+  "main": "maint.js",
+  "devDependencies": {
+    "angular-sanitize": "^1.5.5",
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-minify": "0.0.10",
+    "gulp-sass": "^2.2.0",
+    "gulp-typescript": "^2.13.0"
+  }
+}
