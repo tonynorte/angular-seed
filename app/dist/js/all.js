@@ -19,10 +19,10 @@ angular.module('appAng.utils').directive('ngUtil', function () {
 
 
 angular.module('appAng.another').controller('otherCtrl', function ($scope, $rootScope) {
-    $scope.lastname = 'vega';
+    $scope.lastname = 'Lastname';
 });
 angular.module('appAng.utils').controller('listingCtrl', ['$scope', '$http', function ($scope, $http) {
-    $scope.name = 'tony';
+    $scope.name = 'User';
     $scope.restaurants = {};
 
 	$http.get("data/restData.json").then(function (response) {

@@ -23,6 +23,7 @@ body {
     box-shadow: 0 5px 40px -20px shade(#8CABD9, 40%); }
 
 .wrapper {
+  background: rgba(23, 19, 47, 0.26);
   margin: 150px auto;
   border: 4px solid gray;
   padding: 1%;
