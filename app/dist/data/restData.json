@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "572a2e6d6ff080e5fbcc05e0",
+    "picture": "http://placehold.it/32x32",
+    "name": "Dorthy Whitley",
+    "gender": "female",
+    "company": "ACCEL",
+    "email": "dorthywhitley@accel.com",
+    "phone": "+1 (825) 447-3905",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Griffin Collins"
+      },
+      {
+        "id": 1,
+        "name": "Marcella Kline"
+      },
+      {
+        "id": 2,
+        "name": "Perry Wolf"
+      }
+    ],
+    "greeting": "Hello, Dorthy Whitley! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "572a2e6d3376f33b02c71171",
+    "picture": "http://placehold.it/32x32",
+    "name": "Kaufman Gamble",
+    "gender": "male",
+    "company": "PUSHCART",
+    "email": "kaufmangamble@pushcart.com",
+    "phone": "+1 (937) 577-2380",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Sharlene Barlow"
+      },
+      {
+        "id": 1,
+        "name": "Foster Baldwin"
+      },
+      {
+        "id": 2,
+        "name": "Yates Jones"
+      }
+    ],
+    "greeting": "Hello, Kaufman Gamble! You have 5 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "572a2e6df32eb3c7697b5bba",
+    "picture": "http://placehold.it/32x32",
+    "name": "Aguirre Buck",
+    "gender": "male",
+    "company": "BARKARAMA",
+    "email": "aguirrebuck@barkarama.com",
+    "phone": "+1 (918) 409-2509",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Carlene Tran"
+      },
+      {
+        "id": 1,
+        "name": "Melva Calhoun"
+      },
+      {
+        "id": 2,
+        "name": "Baird Tate"
+      }
+    ],
+    "greeting": "Hello, Aguirre Buck! You have 4 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "572a2e6d9a4c8973d13b8904",
+    "picture": "http://placehold.it/32x32",
+    "name": "Blair Burris",
+    "gender": "male",
+    "company": "IRACK",
+    "email": "blairburris@irack.com",
+    "phone": "+1 (862) 431-3562",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Janie Mays"
+      },
+      {
+        "id": 1,
+        "name": "Hopkins Terrell"
+      },
+      {
+        "id": 2,
+        "name": "Alison Adkins"
+      }
+    ],
+    "greeting": "Hello, Blair Burris! You have 6 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "572a2e6dc70ec2da7b32b9d9",
+    "picture": "http://placehold.it/32x32",
+    "name": "Darlene Wilson",
+    "gender": "female",
+    "company": "EARTHMARK",
+    "email": "darlenewilson@earthmark.com",
+    "phone": "+1 (908) 569-3261",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Valencia Bryan"
+      },
+      {
+        "id": 1,
+        "name": "Patel Ross"
+      },
+      {
+        "id": 2,
+        "name": "Latonya Pace"
+      }
+    ],
+    "greeting": "Hello, Darlene Wilson! You have 5 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "572a2e6d9d12740ef67db06d",
+    "picture": "http://placehold.it/32x32",
+    "name": "Richmond Harvey",
+    "gender": "male",
+    "company": "MAGNAFONE",
+    "email": "richmondharvey@magnafone.com",
+    "phone": "+1 (948) 418-2778",
+    "friends": [
+      {
+        "id": 0,
+        "name": "Johanna Roth"
+      },
+      {
+        "id": 1,
+        "name": "Gamble Cortez"
+      },
+      {
+        "id": 2,
+        "name": "Lauri Abbott"
+      }
+    ],
+    "greeting": "Hello, Richmond Harvey! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

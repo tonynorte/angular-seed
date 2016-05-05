@@ -8,13 +8,29 @@
 	</head>
 	<body>
 		<div class="wrapper" ng-controller="listingCtrl">
-			<h1>Home</h1>
-
 			<div ng-controller="otherCtrl">
-				<p>{{ name }} {{ lastname }}</p>
+				<h1>Welcome {{ name }} {{ lastname }}</h1>
 			</div>
 
-			<span ng-util></span>
+			<span ng-util></span><!-- to call the template -->
+
+			<input type="text" name="new-name" new-name ng-model="newName">
+			<button ng-click="save(newName)">save</button>
+
+			<table class="listing">
+				<tr>
+					<th>Company</th>
+					<th>Director</th>
+					<th>Phone</th>
+					<th>Email</th>
+				</tr>
+				<tr ng-repeat="company in companies" ng-class-odd="'odd'" ng-class-even="'even'">
+					<td >{{company.company}}</td>
+					<td>{{company.name}}</td>
+					<td>{{company.phone}}</td>
+					<td><a href="mailto:{{company.email}}">{{company.email}}</a></td>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>

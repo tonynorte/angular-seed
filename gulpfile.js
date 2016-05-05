@@ -48,6 +48,16 @@ gulp.task('copy_templates', function() {
     .pipe(gulp.dest('app/dist/templates'))
 });
 
+gulp.task('copy_data', function() {
+  gulp.src(['app/src/data/*.json'])
+    .pipe(gulp.dest('app/dist/data'))
+});
+
+gulp.task('copy_img', function() {
+  gulp.src(['app/src/img/*'])
+    .pipe(gulp.dest('app/dist/img'))
+});
+
 gulp.task('compress', function() {
   gulp.src(build_js) //select all javascript files under js/ and any subdirectory
     .pipe(concat('all.js'))
@@ -63,7 +73,7 @@ gulp.task('compile', ['clean'], function () {
 });
 
 // Static Server + watching /html files
-gulp.task('serve', ['clean' , 'sass', 'copy_vendor', 'copy_templates', 'compress', 'compile'], function() {
+gulp.task('serve', ['clean' , 'sass', 'copy_vendor', 'copy_templates', 'copy_data', 'copy_img', 'compress', 'compile'], function() {
 
     browserSync.init({
         server: "./app/dist"
